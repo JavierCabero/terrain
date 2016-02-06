@@ -13,8 +13,12 @@ body {
 	margin: 0;
 }
 
-/* -- Useful -- */
-/*______________*/
+/* -- General -- */
+/*_______________*/
+
+h1 {
+	font-size: 30px;
+}
 
 .theme-txt {
 	color: #FF4C00;
@@ -91,6 +95,7 @@ body {
 
 .section {
 	width: 100%;
+	display: block;
 }
 
 /* -- Intro Section -- */
@@ -160,6 +165,33 @@ body {
 	background: url("img/cabero.png") no-repeat;
 }
 
+/* -- Values -- */
+/*______________*/
+
+#values-section {
+	height: 400px;
+	background: #0F0F0F;
+	padding-top: 80px;
+}
+
+#values-wrapper {
+	max-width: 400px;
+	margin: auto;
+	color: white;
+	text-align: center;
+}
+
+#values-wrapper ul {
+	list-style: none;
+	font-size: 26px;
+	padding: 0px;
+}
+
+#values-wrapper ul li {
+	margin-top: 20px;
+}
+
+
 /* -- Footer -- */
 /*______________*/
 #footer {
@@ -182,10 +214,6 @@ body {
 	max-width: 600px;
 	margin: auto;
 	padding: 50px;
-}
-
-#copyright-wrapper h1 {
-	font-size: 30px;
 }
 
 .copyright-component {
