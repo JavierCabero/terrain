@@ -1,0 +1,203 @@
+/*
+ * Terrain v0.1
+ * Copyright 2015 Javier Cabero
+ * Licensed under MIT (https://github.com/JavierCabero/terrain/blob/master/LICENSE)
+ */
+
+* {
+ font-size: 100%;
+ font-family: Lato;
+}
+
+body {
+	margin: 0;
+}
+
+/* -- Useful -- */
+/*______________*/
+
+.theme-txt {
+	color: #FF4C00;
+}
+
+/* -- Header -- */
+/*______________*/
+
+#header {
+ 	position: fixed;
+ 	top: 0;
+ 	left: 0;
+ 	right: 0;
+ 	height: 50px;
+ 	background: #4A0003;
+ 	border-bottom: 1px solid rgba(0,0,0,.2);
+ 	z-index: 1000;
+ 	color: #F4F3F2;
+}
+
+#header-inner {
+	width: 1000px;
+	margin: 10px auto;
+	height: 30px;
+}
+
+#header-inner * {
+	display: inline;
+}
+
+#header-title {
+	margin: 7px 0px 11px 10px;
+	font-size: 24px;
+	position: relative;
+}
+
+#header-logo {
+	width: 30px;
+	height: 30px;
+	float: left;
+}
+
+#navbar-list {
+	list-style: none;
+	float: right;
+}
+
+#navbar-list {
+	margin: 5px;
+	line-height: 20px;
+}
+
+#navbar-list li {
+	display: inline;
+	margin: 0px 8px;
+}
+
+#navbar-list li a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#navbar-list li a:hover {
+	text-decoration: underline;
+}
+
+/* -- Container -- */
+/*_________________*/
+
+#content {
+	margin-top: 50px;
+	height: 100%;
+}
+
+.section {
+	width: 100%;
+}
+
+/* -- Intro Section -- */
+/*_____________________*/
+
+#intro-section {
+	
+	color: #F4F3F2;
+	height: 400px;
+	padding-top: 150px;
+
+
+	background: url("../img/coffee-jobs.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#intro-txt {	
+	max-width: 666px;
+	margin: auto;
+	text-align: center;
+}
+
+#intro-txt h1 {
+	font-size: 54px;
+	margin-bottom: 12px;
+}
+
+#intro-txt p {
+	font-size: 30px;
+	margin-top: 0px;
+}
+
+/* -- Author Section -- */
+/*______________________*/
+
+#author-section {
+	background: #D3D3D1;
+	height: 340px;
+	padding-top: 80px;
+}
+
+#author-wrapper {
+	max-width: 850px;
+	margin: auto;
+	font-size: 24px;
+}
+
+#author-txt {
+	float: left;
+	max-width: 460px;
+}
+
+#author-txt h1 {
+	font-size: 30px;
+}
+
+#author-photo {
+	float: right;
+	width: 220px;
+	height: 220px;
+	border-radius: 50%;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url("img/cabero.png") no-repeat;
+}
+
+/* -- Footer -- */
+/*______________*/
+#footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+
+/* -- Copyright -- */
+/*_________________*/
+
+#copyright-section {
+	background: #D3D3D1;
+	font-size: 20px;
+}
+
+#copyright-wrapper {
+	max-width: 600px;
+	margin: auto;
+	padding: 50px;
+}
+
+#copyright-wrapper h1 {
+	font-size: 30px;
+}
+
+.copyright-component {
+	margin-bottom: 60px;
+}
+
+#footer-txt a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#footer-txt a:hover {
+	color: inherit;
+	text-decoration: underline;
+}
