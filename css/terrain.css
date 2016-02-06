@@ -91,6 +91,12 @@ h1 {
 #content {
 	margin-top: 50px;
 	height: 100%;
+
+	background: url("../img/coffee-jobs.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .section {
@@ -102,17 +108,9 @@ h1 {
 /*_____________________*/
 
 #intro-section {
-	
 	color: #F4F3F2;
 	height: 400px;
 	padding-top: 150px;
-
-
-	background: url("../img/coffee-jobs.jpg") no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
 }
 
 #intro-txt {	
@@ -162,7 +160,6 @@ h1 {
 	border-radius: 50%;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
-	background: url("img/cabero.png") no-repeat;
 }
 
 /* -- Values -- */
@@ -170,7 +167,7 @@ h1 {
 
 #values-section {
 	height: 400px;
-	background: #0F0F0F;
+	background: rgba(1,1,1,0.8) ; /*#0F0F0F;*/
 	padding-top: 80px;
 }
 
@@ -191,6 +188,31 @@ h1 {
 	margin-top: 20px;
 }
 
+/* -- Video  -- */
+/*______________*/
+
+#video-section {
+	height: 340px;
+	padding-top: 140px;
+	background: #D3D3D1;
+}
+
+#video-wrapper {
+	margin: auto;
+	max-width: 880px;
+}
+
+#video-tag {
+	float: left;
+	width: 380px;
+}
+
+#video-txt {
+	margin-top: 20px;
+	float: right;
+	max-width: 300px;
+	font-size: 20px;
+}
 
 /* -- Footer -- */
 /*______________*/
@@ -206,7 +228,7 @@ h1 {
 /*_________________*/
 
 #copyright-section {
-	background: #D3D3D1;
+	background: #B3B3B1;
 	font-size: 20px;
 }
 
